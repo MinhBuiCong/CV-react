@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import logo from "./logo.svg";
+import profile from "./profile.jpg";
 
 function Header() {
-  return <img src={logo} alt="Logo" />;
+  return <img className="profilePic" src={profile} alt="profile-picture" />;
 }
 
 export default Header;
