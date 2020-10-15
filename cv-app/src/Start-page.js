@@ -1,26 +1,18 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import Header from "./logo.js";
-import Home from "./Home-page";
+import Home from "./Home page/Home-page";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to my site</h1>
-        <Header></Header>
-        <BrowserRouter>
-          <Switch>
-            <button>
-              <Route exact path="./Home-page.js" component={Home} />
-            </button>
-          </Switch>
-        </BrowserRouter>
-        <p>Arrow right</p>
-      </header>
+      <h1>Welcome to my site</h1>
+      <Header />
+      <button>About</button>
+      <button>Career</button>
+      <button>Education</button>
+      <button>Hobby</button>
     </div>
   );
 }
-
-export default App;
