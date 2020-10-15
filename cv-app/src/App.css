@@ -1,35 +1,57 @@
 .content {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin-left: 180px;
 }
 
 .main h1 {
   color: #dddad8;
+  font-size: 56px;
+}
+
+.main h2 {
+  color: #dddad8;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 50px;
+  width: 60vw;
+  margin-bottom: 50px;
+}
+
+.wrapper p {
+  color: #535c5f;
+  font-weight: 200;
+  padding: 20px 50px;
 }
 
 .pages {
   display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  border-right: 2px solid #4b4b4c;
-  height: 100vh;
-  margin-left: -1200px;
+  flex-direction: row;
+  border-bottom: 2px solid #dddad8;
+  justify-content: space-evenly;
+  margin: 20px 20px;
 }
 
 .pages button {
-  background-color: #8a8a8a;
+  background: none;
   color: #dddad8;
   border: none;
   cursor: pointer;
-  margin: 0px 80px 50px 50px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
 
 .pages button:hover {
@@ -38,11 +60,12 @@
 }
 
 .profilePic {
-  width: 300px;
-  height: 200px;
+  width: 180px;
+  height: 170px;
   display: flex;
   flex-direction: column;
-  border-radius: 16px;
-  box-shadow: 3px 3px #535c5f;
-  z-index: 10;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
 }
