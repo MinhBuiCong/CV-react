@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./Career.css";
 
+import Data from "./Data";
+import CardComponent from "./Card-component";
+
 class Career extends Component {
   render() {
     return (
@@ -9,46 +12,9 @@ class Career extends Component {
           <h1>Career</h1>
         </div>
         <div className="cardComponent">
-          <div className="row">
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-            <div className="component">
-              <img src="" alt="logo" />
-              <h3>name of the firm</h3>
-              <h4>duration</h4>
-              <p>description of the work</p>
-            </div>
-          </div>
+          {Data.map((d) => (
+            <CardComponent data={d} key={d.id} />
+          ))}
         </div>
       </div>
     );

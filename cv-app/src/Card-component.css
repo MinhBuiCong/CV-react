@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper img {
+  height: 120px;
+  width: 200px;
+}

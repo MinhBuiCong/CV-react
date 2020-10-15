@@ -22,18 +22,7 @@
   color: #dddad8;
 }
 
-.row {
+.cardComponent {
   display: flex;
   flex-direction: row;
-  width: 80vw;
-  justify-content: space-evenly;
-  margin-bottom: 50px;
-  color: #535c5f;
-}
-
-.component {
-  background-color: #dddad8;
-  border-radius: 50px;
-  height: 300px;
-  width: 300px;
 }
