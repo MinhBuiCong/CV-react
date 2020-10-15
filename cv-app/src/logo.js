@@ -3,7 +3,11 @@ import "./App.css";
 import profile from "./profile.jpg";
 
 function Header() {
-  return <img className="profilePic" src={profile} alt="profile" />;
+  return (
+    <div className="imgContainer">
+      <img className="profilePic" src={profile} alt="profile" />;
+    </div>
+  );
 }
 
 export default Header;

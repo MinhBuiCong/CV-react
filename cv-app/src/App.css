@@ -24,7 +24,7 @@
 }
 
 .wrapper {
-  background-color: white;
+  background-color: #f0ece9;
   border-radius: 50px;
   width: 60vw;
   margin-bottom: 50px;
@@ -34,6 +34,7 @@
   color: #535c5f;
   font-weight: 200;
   padding: 20px 50px;
+  margin-bottom: 24px;
 }
 
 .pages {
@@ -61,10 +62,10 @@
 
 .profilePic {
   width: 180px;
-  height: 170px;
+  height: 164px;
   display: flex;
   flex-direction: column;
-  border-radius: 50px;
+  border-radius: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
   border: none;
