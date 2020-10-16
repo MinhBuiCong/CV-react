@@ -5,7 +5,7 @@ function FriendsComponent({ FriendsData }) {
   const { imgsrc } = FriendsData;
   return (
     <div className="mediaWrapper">
-      <img src={imgsrc} />
+      <img src={imgsrc} alt="pictures" />
     </div>
   );
 }

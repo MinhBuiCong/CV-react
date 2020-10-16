@@ -9,30 +9,38 @@
   align-items: center;
   width: 80vw;
   margin-left: 180px;
+  margin-bottom: 100px;
 }
 
 .main h1 {
   color: #dddad8;
   font-size: 56px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .main h2 {
   color: #dddad8;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 100px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .wrapper {
-  background-color: #f0ece9;
-  border-radius: 50px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 16px;
   width: 60vw;
   margin-bottom: 50px;
 }
 
 .wrapper p {
-  color: #535c5f;
-  font-weight: 200;
+  color: white;
+  font-weight: 100;
   padding: 20px 50px;
   margin-bottom: 24px;
 }

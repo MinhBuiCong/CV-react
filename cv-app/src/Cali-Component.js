@@ -5,7 +5,7 @@ function CaliComponent({ CaliData }) {
   const { imgsrc } = CaliData;
   return (
     <div className="mediaWrapper">
-      <img src={imgsrc} />
+      <img src={imgsrc} alt="pictures" />
     </div>
   );
 }

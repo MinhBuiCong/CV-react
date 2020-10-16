@@ -5,9 +5,9 @@ function CardComponent({ data }) {
   const { name, duration, info, imgsrc } = data;
   return (
     <div className="cardComponentWrapper">
-      <img src={imgsrc} />
+      <img src={imgsrc} alt="logo" />
       <h1>{name}</h1>
-      <p>{duration}</p>
+      <h2>{duration}</h2>
       <p>{info}</p>
     </div>
   );
