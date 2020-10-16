@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./Start-page";
-import Career from "./Career";
-import Education from "./Education";
-import Hobby from "./Hobby";
-import Contact from "./Contact";
+import "./Style/index.css";
+import App from "./About/About";
+import Career from "./Career/Career";
+import Education from "./Education/Education";
+import Hobby from "./Hobby/Hobby";
+import Contact from "./Contact/Contact";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 const routing = (
@@ -15,7 +15,7 @@ const routing = (
         <button>
           <Link
             style={{ textDecoration: "none", color: "#ffffff" }}
-            to="/Start-page"
+            to="/About"
           >
             About
           </Link>
@@ -54,7 +54,7 @@ const routing = (
         </button>
       </div>
       <Switch>
-        <Route exact path="/Start-page" component={App} />
+        <Route exact path="/About" component={App} />
         <Route path="/Career" component={Career} />
         <Route path="/Education" component={Education} />
         <Route path="/Hobby" component={Hobby} />

@@ -1,8 +1,8 @@
-import boulderingMedium from "../src/Video/6b+.mp4";
-import boulderingHard from "../src/Video/6c.mp4";
-import boulderingSkullerud from "../src/Video/6c-power.mp4";
-import boulderingHut from "../src/Video/easy-blå.mp4";
-import boulderingBryn from "../src/Video/skulder-gul.mp4";
+import boulderingMedium from "../Video/6b+.mp4";
+import boulderingHard from "../Video/6c.mp4";
+import boulderingSkullerud from "../Video/6c-power.mp4";
+import boulderingHut from "../Video/easy-blå.mp4";
+import boulderingBryn from "../Video/skulder-gul.mp4";
 
 const VideoData = [
   {

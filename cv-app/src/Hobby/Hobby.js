@@ -3,11 +3,11 @@ import BoulderingComponent from "./Bouldering-component";
 import FriendsComponent from "./Friends-component";
 import CaliComponent from "./Cali-Component";
 import CaliVideoComponent from "./Cali-video-component";
-import VideoData from "./Boulder-data";
-import FriendsData from "./Friends-data";
-import CaliData from "./Calisthenics-data";
-import CaliVideoData from "./Calisthenics-video-data";
-import "./BoulderingVideo.css";
+import VideoData from "../Data/Boulder-data";
+import FriendsData from "../Data/Friends-data";
+import CaliData from "../Data/Calisthenics-data";
+import CaliVideoData from "../Data/Calisthenics-video-data";
+import "../Style/Hobby.css";
 
 class Hobby extends Component {
   render() {

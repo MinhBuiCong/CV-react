@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Career.css";
-import Data from "./Data";
-import CardComponent from "./Card-component";
+import "../Style/Career.css";
+import Data from "../Data/Career-data";
+import CardComponent from "./Career-card-component";
 
 class Career extends Component {
   render() {

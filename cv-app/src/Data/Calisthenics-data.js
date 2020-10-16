@@ -1,5 +1,5 @@
-import sit from "../src/images/L-sit.jpg";
-import planche from "../src/images/Tucked-planche.jpg";
+import sit from "../images/L-sit.jpg";
+import planche from "../images/Tucked-planche.jpg";
 
 const CaliData = [
   {

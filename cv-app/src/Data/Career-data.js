@@ -1,8 +1,8 @@
-import Xpert from "../src/images/Xpert.png";
-import Havbakeriet from "../src/images/Havbakeriet.png";
-import Heco from "../src/images/Heco.png";
-import Nordstrand from "../src/images/Nordstrand-elektro.png";
-import Tønsberg from "../src/images/Tønsberg-elektriske.png";
+import Xpert from "../images/Xpert.png";
+import Havbakeriet from "../images/Havbakeriet.png";
+import Heco from "../images/Heco.png";
+import Nordstrand from "../images/Nordstrand-elektro.png";
+import Tønsberg from "../images/Tønsberg-elektriske.png";
 
 const Data = [
   {

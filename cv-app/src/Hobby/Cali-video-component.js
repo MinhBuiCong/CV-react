@@ -1,5 +1,5 @@
 import React from "react";
-import "./BoulderingVideo.css";
+import "../Style/Hobby.css";
 
 function CaliVideoComponent({ CaliVideoData }) {
   const { videosrc } = CaliVideoData;

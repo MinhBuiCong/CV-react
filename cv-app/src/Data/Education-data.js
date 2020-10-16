@@ -1,6 +1,6 @@
-import Fagskolen from "../src/images/Fagskolen.png";
-import Noroff from "../src/images/Noroff.png";
-import Færder from "../src/images/Færder-vgs.png";
+import Fagskolen from "../images/Fagskolen.png";
+import Noroff from "../images/Noroff.png";
+import Færder from "..//images/Færder-vgs.png";
 
 const EduData = [
   {

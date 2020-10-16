@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Education.css";
-import EduData from "./Education-data";
+import "../Style/Education.css";
+import EduData from "../Data/Education-data";
 import EducationCardComponent from "./Education-card-component";
 
 class Education extends Component {
