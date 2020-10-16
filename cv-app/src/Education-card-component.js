@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Education-card-component.css";
+import "./Education-card-component.css";
 
 function EducationCardComponent({ EduData }) {
   const { name, duration, info, imgsrc, degree } = EduData;
