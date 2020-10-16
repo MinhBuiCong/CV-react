@@ -4,7 +4,7 @@ import "./BoulderingVideo.css";
 function FriendsComponent({ FriendsData }) {
   const { imgsrc } = FriendsData;
   return (
-    <div className="componentWrapper">
+    <div className="mediaWrapper">
       <img src={imgsrc} />
     </div>
   );

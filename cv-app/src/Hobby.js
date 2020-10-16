@@ -30,31 +30,41 @@ class Hobby extends Component {
             </div>
           </div>
         </div>
-        <div className="header">
-          <h1>Bouldering</h1>
+        <div className="hobbyName">
+          <h1>Training</h1>
+          <div className="hobbyCard">
+            <div className="hobbyText">
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+            </div>
+            <div className="mediaContent">
+              {CaliVideoData.map((d) => (
+                <CaliVideoComponent CaliVideoData={d} key={d.id} />
+              ))}
+              {CaliData.map((d) => (
+                <CaliComponent CaliData={d} key={d.id} />
+              ))}
+            </div>
+          </div>
         </div>
-        <div className="Content"></div>
-        <div className="hobbyContent">
-          <div>
-            <h1>Training</h1>
-          </div>
-          <div className="Content">
-            {CaliVideoData.map((d) => (
-              <CaliVideoComponent CaliVideoData={d} key={d.id} />
-            ))}
-            {CaliData.map((d) => (
-              <CaliComponent CaliData={d} key={d.id} />
-            ))}
-          </div>
-        </div>
-        <div className="hobbyContent">
-          <div>
-            <h1>With friends</h1>
-          </div>
-          <div className="Content">
-            {FriendsData.map((d) => (
-              <FriendsComponent FriendsData={d} key={d.id} />
-            ))}
+        <div className="hobbyName">
+          <h1>Friends</h1>
+          <div className="hobbyCard">
+            <div className="hobbyText">
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+              <p>lorem ipsum blablabla</p>
+            </div>
+            <div className="mediaContent">
+              {FriendsData.map((d) => (
+                <FriendsComponent FriendsData={d} key={d.id} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
