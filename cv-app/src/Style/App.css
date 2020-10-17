@@ -15,31 +15,31 @@
 .main h1 {
   color: #dddad8;
   font-size: 56px;
-  border-bottom: 2px solid white;
+  font-weight: 500;
+  border-bottom: 1px solid #dddad8;
   padding: 10px;
   border-radius: 8px;
 }
 
 .main h2 {
   color: #dddad8;
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 32px;
+  font-weight: 600;
   margin-bottom: 100px;
-  border-bottom: 2px solid white;
   padding: 10px;
   border-radius: 8px;
 }
 
 .wrapper {
   background: none;
-  border: 2px solid white;
+  border: 2px solid #dddad8;
   border-radius: 16px;
   width: 60vw;
   margin-bottom: 50px;
 }
 
 .wrapper p {
-  color: white;
+  color: #dddad8;
   font-weight: 100;
   padding: 20px 50px;
   margin-bottom: 24px;
@@ -68,13 +68,18 @@
   text-transform: underline;
 }
 
-.profilePic {
-  width: 180px;
-  height: 164px;
+.imgContainer {
   display: flex;
-  flex-direction: column;
-  border-radius: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePic {
+  max-width: 20%;
+  height: auto;
+  border-radius: 24px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: none;
 }

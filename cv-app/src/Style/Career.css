@@ -7,13 +7,13 @@
 }
 
 .header {
-  color: white;
+  color: #dddad8;
   align-items: center;
 }
 
 .header h1 {
   font-size: 56px;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid #dddad8;
   padding: 8px;
   border-radius: 8px;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import "../Style/App.css";
-import Header from "../logo.js";
+import Header from "./About-component.js";
 
 function App() {
   return (
     <div className="main">
-      <h1>About me</h1>
+      <h1>Hi, my name is Minh!</h1>
       <Header />
       <h2>Frontend-developer student</h2>
       <div className="wrapper">
