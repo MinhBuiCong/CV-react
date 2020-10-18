@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ContactData from "../Data/Contact-data";
 import ContactCardComponent from "./Contact-card-component";
 import "../Style/Contact.css";
+import Gmail from "../Icons/gmail.svg";
+import Mobile from "../Icons/mobile.svg";
 
 class Contact extends Component {
   render() {
@@ -14,6 +16,18 @@ class Contact extends Component {
           {ContactData.map((d) => (
             <ContactCardComponent ContactData={d} key={d.id} />
           ))}
+        </div>
+        <div className="mailContent">
+          <a href="mailto:minbui54@gmail.com">
+            <img src={Gmail}></img>
+          </a>
+          <h1>Send mail</h1>
+        </div>
+        <div className="callContent">
+          <a href="tel:+4797627386">
+            <img src={Mobile}></img>
+          </a>
+          <h1>Call</h1>
         </div>
       </div>
     );
