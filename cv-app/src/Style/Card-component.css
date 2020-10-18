@@ -47,3 +47,13 @@
 .logoSchool {
   background-color: #dddad8;
 }
+
+.link {
+  max-width: 25%;
+  height: auto;
+}
+
+.link .icon {
+  max-width: 100%;
+  height: auto;
+}
