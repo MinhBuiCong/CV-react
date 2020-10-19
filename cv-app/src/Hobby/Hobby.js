@@ -7,6 +7,8 @@ import VideoData from "../Data/Boulder-data";
 import FriendsData from "../Data/Friends-data";
 import CaliData from "../Data/Calisthenics-data";
 import CaliVideoData from "../Data/Calisthenics-video-data";
+import HobbyTextComponent from "./Text-component";
+import HobbyTextData from "../Data/Hobby-text-data";
 import "../Style/Hobby.css";
 
 class Hobby extends Component {
@@ -14,14 +16,27 @@ class Hobby extends Component {
     return (
       <div className="hobbyContent">
         <div className="hobbyName">
+          <h1>Friends</h1>
+          <div className="hobbyCard">
+            <div className="hobbyText">
+              {HobbyTextData.filter((i, index) => index < 1).map((i, index) => {
+                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
+              })}
+            </div>
+            <div className="mediaContent">
+              {FriendsData.map((d) => (
+                <FriendsComponent FriendsData={d} key={d.id} />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="hobbyName">
           <h1>Bouldering</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
+              {HobbyTextData.filter((i, index) => index & 1).map((i, index) => {
+                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
+              })}
             </div>
             <div className="mediaContent">
               {VideoData.map((d) => (
@@ -34,11 +49,9 @@ class Hobby extends Component {
           <h1>Training</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
+              {HobbyTextData.filter((i, index) => index > 1).map((i, index) => {
+                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
+              })}
             </div>
             <div className="mediaContent">
               {CaliVideoData.map((d) => (
@@ -46,23 +59,6 @@ class Hobby extends Component {
               ))}
               {CaliData.map((d) => (
                 <CaliComponent CaliData={d} key={d.id} />
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="hobbyName">
-          <h1>Friends</h1>
-          <div className="hobbyCard">
-            <div className="hobbyText">
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-              <p>lorem ipsum blablabla</p>
-            </div>
-            <div className="mediaContent">
-              {FriendsData.map((d) => (
-                <FriendsComponent FriendsData={d} key={d.id} />
               ))}
             </div>
           </div>
