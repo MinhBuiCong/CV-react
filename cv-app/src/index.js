@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Style/index.css";
-import App from "./About/About";
+import About from "./About/About";
 import Career from "./Career/Career";
 import Education from "./Education/Education";
 import Hobby from "./Hobby/Hobby";
@@ -13,10 +13,7 @@ const routing = (
     <div className="content">
       <div className="pages">
         <button>
-          <Link
-            style={{ textDecoration: "none", color: "#ffffff" }}
-            to="/About"
-          >
+          <Link style={{ textDecoration: "none", color: "#ffffff" }} to="/">
             About
           </Link>
         </button>
@@ -54,7 +51,7 @@ const routing = (
         </button>
       </div>
       <Switch>
-        <Route exact path="/About" component={App} />
+        <Route exact path="/" component={About} />
         <Route path="/Career" component={Career} />
         <Route path="/Education" component={Education} />
         <Route path="/Hobby" component={Hobby} />

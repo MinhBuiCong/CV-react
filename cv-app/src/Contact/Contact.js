@@ -19,13 +19,13 @@ class Contact extends Component {
         </div>
         <div className="mailContent">
           <a href="mailto:minbui54@gmail.com">
-            <img src={Gmail}></img>
+            <img src={Gmail} alt="gmail logo"></img>
           </a>
           <h1>Send mail</h1>
         </div>
         <div className="callContent">
           <a href="tel:+4797627386">
-            <img src={Mobile}></img>
+            <img src={Mobile} alt="mobile logo"></img>
           </a>
           <h1>Call</h1>
         </div>
