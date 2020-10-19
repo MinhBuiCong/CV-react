@@ -19,6 +19,12 @@ class Hobby extends Component {
           <h1>Friends</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
+              {/* {HobbyTextData.map((i, index) => (
+                <HobbyTextComponent
+                  HobbyTextData={HobbyTextData[0]}
+                  key={i.id}
+                />
+              ))} */}
               {HobbyTextData.filter((i, index) => index < 1).map((i, index) => {
                 return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
               })}

@@ -10,7 +10,7 @@ const EduData = [
     duration: "August 2020 - Juni 2022",
     degree: "Frontend-developer",
     info:
-      "Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. dummy text of the printing and typesetting",
+      "Learning to be a full fledge frontend-developer. Practical studies that takes real job problems and learn to execute this professionally. We are currently coding our own designed webpage with VanillaJS.",
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ const EduData = [
     duration: "August 2015 - Juni 2017",
     degree: "Fagskoleingeniør innen Elkraft",
     info:
-      "Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. dummy text of the printing and typesetting",
+      "Learning basic about leadership, economy and marketing. Specialize in the electrical subject. Our last exam was to make a start-up company, here we needed to show the budget and documentation of the project.",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const EduData = [
     duration: "August 2010 - Juni 2012",
     degree: "Lærling",
     info:
-      "Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. dummy text of the printing and typesetting",
+      "Getting to learn about the elctrical field. Having a lot of practical work about being an electrician. ",
   },
 ];
 
