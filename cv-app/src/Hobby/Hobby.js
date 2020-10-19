@@ -19,15 +19,10 @@ class Hobby extends Component {
           <h1>Friends</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
-              {/* {HobbyTextData.map((i, index) => (
-                <HobbyTextComponent
-                  HobbyTextData={HobbyTextData[0]}
-                  key={i.id}
-                />
-              ))} */}
-              {HobbyTextData.filter((i, index) => index < 1).map((i, index) => {
-                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
-              })}
+              <HobbyTextComponent
+                HobbyTextData={HobbyTextData[0]}
+                key={HobbyTextData[0].id}
+              />
             </div>
             <div className="mediaContent">
               {FriendsData.map((d) => (
@@ -40,9 +35,10 @@ class Hobby extends Component {
           <h1>Bouldering</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
-              {HobbyTextData.filter((i, index) => index & 1).map((i, index) => {
-                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
-              })}
+              <HobbyTextComponent
+                HobbyTextData={HobbyTextData[1]}
+                key={HobbyTextData.id}
+              />
             </div>
             <div className="mediaContent">
               {VideoData.map((d) => (
@@ -55,9 +51,10 @@ class Hobby extends Component {
           <h1>Training</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
-              {HobbyTextData.filter((i, index) => index > 1).map((i, index) => {
-                return <HobbyTextComponent HobbyTextData={i} key={i.id} />;
-              })}
+              <HobbyTextComponent
+                HobbyTextData={HobbyTextData[2]}
+                key={HobbyTextData.id}
+              />
             </div>
             <div className="mediaContent">
               {CaliVideoData.map((d) => (
