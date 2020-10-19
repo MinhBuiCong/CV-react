@@ -9,11 +9,11 @@ function App() {
     <div className="main">
       <h1>Hi, my name is Minh!</h1>
       <Header />
-      <div className="degreeHeader">
-        <code>Frontend-developer student</code>
-        <code>Technical engineer</code>
-        <code>Electrician</code>
-      </div>
+      <ul className="degreeHeader">
+        <li>Frontend-developer student</li>
+        <li>Technical engineer</li>
+        <li>Electrician</li>
+      </ul>
 
       <div className="wrapper">
         {AboutTextData.map((d) => (

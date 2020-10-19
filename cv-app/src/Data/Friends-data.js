@@ -1,8 +1,9 @@
 import gjengen from "../images/gjengen.jpeg";
-import operahuset from "../images/operahuset.jpeg";
 import sandefjord from "../images/Sandefjord-med-abir.jpg";
-import slottsfjell from "../images/slottsfjell.jpeg";
 import verdensEnde from "../images/verdens-ende.jpeg";
+import BoulderingWithFriends from "../images/bouldering-with-friends.jpeg";
+import SandefjordFriends from "../images/Sandefjord med gjengen.jpeg";
+import Stavanger from "../images/stavanger.jpg";
 
 const FriendsData = [
   {
@@ -11,19 +12,23 @@ const FriendsData = [
   },
   {
     id: 1,
-    imgsrc: operahuset,
-  },
-  {
-    id: 2,
     imgsrc: sandefjord,
   },
   {
+    id: 2,
+    imgsrc: verdensEnde,
+  },
+  {
     id: 3,
-    imgsrc: slottsfjell,
+    imgsrc: BoulderingWithFriends,
   },
   {
     id: 4,
-    imgsrc: verdensEnde,
+    imgsrc: SandefjordFriends,
+  },
+  {
+    id: 5,
+    imgsrc: Stavanger,
   },
 ];
 

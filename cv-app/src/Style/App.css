@@ -14,11 +14,10 @@
 
 .main h1 {
   color: #dddad8;
-  font-size: 56px;
-  font-weight: 500;
+  font-size: 48px;
+  font-weight: 400;
   border-bottom: 1px solid #dddad8;
   padding: 10px;
-  border-radius: 8px;
 }
 
 .degreeHeader {
@@ -29,10 +28,10 @@
   margin-bottom: 40px;
 }
 
-.degreeHeader code {
+.degreeHeader li {
   color: #dddad8;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 300;
   margin: 0px 0px 5px 0px;
 
   border-radius: 8px;

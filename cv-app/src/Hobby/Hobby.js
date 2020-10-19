@@ -16,7 +16,7 @@ class Hobby extends Component {
     return (
       <div className="hobbyContent">
         <div className="hobbyName">
-          <h1>Friends</h1>
+          <h1>Friends and family</h1>
           <div className="hobbyCard">
             <div className="hobbyText">
               <HobbyTextComponent

@@ -22,25 +22,21 @@
   font-weight: 400;
   border-bottom: 1px solid #dddad8;
   padding-bottom: 8px;
-  border-radius: 8px;
 }
 
 .cardComponentWrapper h2 {
   font-size: 20px;
   font-weight: 200;
-  border-radius: 8px;
 }
 
 .cardComponentWrapper h3 {
   font-size: 30px;
   font-weight: 500;
-  border-radius: 8px;
 }
 
 .cardComponentWrapper p {
   font-size: 20px;
   font-weight: 100;
-  border-radius: 8px;
   padding: 20px 50px;
 }
 

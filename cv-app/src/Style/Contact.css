@@ -15,7 +15,6 @@
   font-size: 56px;
   border-bottom: 1px solid #dddad8;
   padding: 8px;
-  border-radius: 8px;
 }
 
 .cardComponent {
@@ -42,7 +41,6 @@
   font-weight: 400;
   border-bottom: 1px solid #dddad8;
   padding-bottom: 8px;
-  border-radius: 8px;
   color: #dddad8;
 }
 
@@ -62,7 +60,6 @@
   font-weight: 400;
   border-bottom: 1px solid #dddad8;
   padding-bottom: 8px;
-  border-radius: 8px;
   color: #dddad8;
 }
 
@@ -82,6 +79,5 @@
   font-weight: 400;
   border-bottom: 1px solid #dddad8;
   padding-bottom: 8px;
-  border-radius: 8px;
   color: #dddad8;
 }
