@@ -11,6 +11,7 @@ import HobbyTextComponent from "./Text-component";
 import HobbyTextData from "../Data/Hobby-text-data";
 import "../Style/Hobby.css";
 import "../Media-tablet-styles/hobby-tablet.css";
+import "../Media-mobile-styles/hobby-mobile.css";
 
 class Hobby extends Component {
   render() {

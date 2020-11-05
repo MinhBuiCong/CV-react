@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .contactContent .header h1 {
+    font-size: 24px;
+  }
+  .cardComponent {
+    margin: 0px;
+  }
+  .contactCardComponentWrapper {
+    width: 60vw;
+  }
+  .contactCardComponentWrapper h1 {
+    font-size: 24px;
+  }
+}

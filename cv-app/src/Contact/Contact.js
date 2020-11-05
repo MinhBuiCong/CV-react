@@ -3,6 +3,7 @@ import ContactData from "../Data/Contact-data";
 import ContactCardComponent from "./Contact-card-component";
 import "../Style/Contact.css";
 import "../Media-tablet-styles/contact-tablet.css";
+import "../Media-mobile-styles/contact-mobile.css";
 import Gmail from "../Icons/gmail.svg";
 import Mobile from "../Icons/mobile.svg";
 

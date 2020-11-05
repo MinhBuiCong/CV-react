@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  .hobbyName h1 {
+    font-size: 24px;
+  }
+  .hobbyCard {
+    margin: 0px;
+    height: 300px;
+  }
+  .hobbyText {
+    width: fit-content;
+    font-size: 12px;
+    height: 300px;
+    padding: 10px;
+  }
+  .mediaContent {
+    width: fit-content;
+    font-size: 12px;
+    padding: 10px;
+    height: 240px;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .mediaWrapper img {
+    margin: 20px 0px 0px 0px;
+  }
+  .mediaWrapper video {
+    margin: 20px 0px 0px 0px;
+  }
+}
