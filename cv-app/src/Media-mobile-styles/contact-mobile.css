@@ -11,4 +11,16 @@
   .contactCardComponentWrapper h1 {
     font-size: 24px;
   }
+  .mailContent {
+    width: 60px;
+  }
+  .mailContent h1 {
+    font-size: 24px;
+  }
+  .callContent {
+    width: 60px;
+  }
+  .callContent h1 {
+    font-size: 24px;
+  }
 }
