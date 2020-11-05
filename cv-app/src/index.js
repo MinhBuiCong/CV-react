@@ -13,12 +13,12 @@ const routing = (
   <BrowserRouter>
     <div className="content">
       <div className="pages">
-        <button>
+        <button className="navigation active">
           <Link style={{ textDecoration: "none", color: "#ffffff" }} to="/">
             About
           </Link>
         </button>
-        <button>
+        <button className="navigation">
           <Link
             style={{ textDecoration: "none", color: "#ffffff" }}
             to="/Career"
@@ -26,7 +26,7 @@ const routing = (
             Career
           </Link>
         </button>
-        <button>
+        <button className="navigation">
           <Link
             style={{ textDecoration: "none", color: "#ffffff" }}
             to="/Education"
@@ -34,7 +34,7 @@ const routing = (
             Education
           </Link>
         </button>
-        <button>
+        <button className="navigation">
           <Link
             style={{ textDecoration: "none", color: "#ffffff" }}
             to="/Hobby"
@@ -42,7 +42,7 @@ const routing = (
             Hobby
           </Link>
         </button>
-        <button>
+        <button className="navigation">
           <Link
             style={{ textDecoration: "none", color: "#ffffff" }}
             to="/Contact"

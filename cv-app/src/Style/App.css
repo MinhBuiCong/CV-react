@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
 }
+.mobileMenu {
+  display: none;
+}
 
 .main {
   display: flex;
