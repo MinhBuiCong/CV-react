@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .careerContent {
+    margin: 0px;
+  }
+  .careerContent .header h1 {
+    font-size: 24px;
+  }
+}

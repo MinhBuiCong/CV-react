@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+  .cardComponent {
+    margin: 0px;
+  }
+  .cardComponentWrapper {
+    margin: 10px 0px 20px 0px;
+  }
+  .cardComponentWrapper img {
+    width: 50%;
+    height: auto;
+  }
+  .cardComponentWrapper h1 {
+    font-size: 16px;
+  }
+  .cardComponentWrapper h2 {
+    font-size: 16px;
+  }
+  .cardComponentWrapper h3 {
+    font-size: 16px;
+  }
+  .cardComponentWrapper p {
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+}

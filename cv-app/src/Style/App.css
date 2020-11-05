@@ -74,7 +74,7 @@
 }
 
 .pages button:hover {
-  color: #ceccca;
+  font-weight: bold;
   text-transform: underline;
 }
 

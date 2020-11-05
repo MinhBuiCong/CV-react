@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../Style/Education.css";
 import "../Media-tablet-styles/education-tablet.css";
+import "../Media-mobile-styles/education-mobile.css";
 import EduData from "../Data/Education-data";
 import EducationCardComponent from "./Education-card-component";
 

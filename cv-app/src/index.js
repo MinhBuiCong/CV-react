@@ -13,8 +13,14 @@ const routing = (
   <BrowserRouter>
     <div className="content">
       <div className="pages">
-        <button className="navigation active">
-          <Link style={{ textDecoration: "none", color: "#ffffff" }} to="/">
+        <button className="navigation">
+          <Link
+            style={{
+              textDecoration: "none",
+              color: "#ffffff",
+            }}
+            to="/"
+          >
             About
           </Link>
         </button>

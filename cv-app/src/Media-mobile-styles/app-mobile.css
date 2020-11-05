@@ -1,7 +1,52 @@
-@media only screen and (max-width: 400px) {
-  .content {
+@media only screen and (max-width: 600px) {
+  .pages button {
+    font-size: 12px;
   }
-  .pages {
-    display: none;
+  .main {
+    margin: 10px 0px 0px 0px;
+    width: 100vw;
+    overflow: visible;
+  }
+  .main h1 {
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+  }
+  .imgContainer {
+    margin: 10px 0px 0px 0px;
+  }
+  .profilePic {
+    max-width: 50%;
+  }
+  .degreeHeader {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+  }
+  .degreeHeader li {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .wrapper {
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+  .wrapper p {
+    font-size: 12px;
+    padding: 20px;
+    margin: 0px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navigation .navigationButton {
+    background: none;
+    border: none;
+    font-size: 16px;
+  }
+  .navigation .navigationButton:active {
+    color: red;
+    background: white;
   }
 }

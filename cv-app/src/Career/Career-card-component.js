@@ -1,5 +1,7 @@
 import React from "react";
 import "../Style/Card-component.css";
+import "../Media-tablet-styles/card-component-tablet.css";
+import "../Media-mobile-styles/card-component-mobile.css";
 
 function CardComponent({ data }) {
   const { name, duration, info, imgsrc, position } = data;

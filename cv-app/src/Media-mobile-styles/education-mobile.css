@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .educationContent {
+    margin: 0px;
+  }
+  .educationContent .header h1 {
+    font-size: 24px;
+  }
+}
