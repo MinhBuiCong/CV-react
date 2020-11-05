@@ -1,11 +1,7 @@
 @media only screen and (max-width: 400px) {
   .content {
   }
-  .pages button {
-    font-size: 12px;
-  }
-  .pages button:active {
-    font-size: 16px;
-    background: black;
+  .pages {
+    display: none;
   }
 }

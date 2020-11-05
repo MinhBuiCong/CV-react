@@ -6,25 +6,25 @@ import Header from "./About-component.js";
 import AboutTextComponent from "./About-text-component.js";
 import AboutTextData from "../Data/About-data";
 
-// const types = ["about", "career", "education", "hobby", "contact"];
+const types = ["about", "career", "education", "hobby", "contact"];
 
-// function NavBar() {
-//   const [active, setActive] = useState(types[0]);
-//   return (
-//     <div>
-//       {types.map((type) => (
-//         <button active={active === type} onclick={() => setActive(type)}>
-//           {type}
-//         </button>
-//       ))}
-//     </div>
-//   );
-// }
+function NavBar() {
+  const [active, setActive] = useState(types[0]);
+  return (
+    <div className="navigation">
+      {types.map((type) => (
+        <button active={active === type} onclick={() => setActive(type)}>
+          {type}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="main">
         <h1>Hi, my name is Minh!</h1>
         <Header />
