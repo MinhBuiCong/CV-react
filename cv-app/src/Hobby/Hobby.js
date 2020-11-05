@@ -10,6 +10,7 @@ import CaliVideoData from "../Data/Calisthenics-video-data";
 import HobbyTextComponent from "./Text-component";
 import HobbyTextData from "../Data/Hobby-text-data";
 import "../Style/Hobby.css";
+import "../Media-styles/hobby-tablet.css";
 
 class Hobby extends Component {
   render() {

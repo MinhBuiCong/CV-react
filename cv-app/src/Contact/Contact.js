@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ContactData from "../Data/Contact-data";
 import ContactCardComponent from "./Contact-card-component";
 import "../Style/Contact.css";
+import "../Media-styles/contact-tablet.css";
 import Gmail from "../Icons/gmail.svg";
 import Mobile from "../Icons/mobile.svg";
 

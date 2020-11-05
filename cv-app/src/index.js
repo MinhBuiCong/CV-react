@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Style/index.css";
+import "./Media-styles/index-tablet.css";
 import About from "./About/About";
 import Career from "./Career/Career";
 import Education from "./Education/Education";

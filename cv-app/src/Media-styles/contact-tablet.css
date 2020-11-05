@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024px) {
+  .contactCardComponentWrapper {
+    width: 40vw;
+  }
+  .mailContent {
+    width: 40vw;
+  }
+  .callContent {
+    width: 40vw;
+  }
+}
