@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/App.css";
-import "../Media-styles/app-tablet.css";
+import "../Media-tablet-styles/app-tablet.css";
+import "../Media-mobile-styles/app-mobile.css";
 import Header from "./About-component.js";
 import AboutTextComponent from "./About-text-component.js";
 import AboutTextData from "../Data/About-data";

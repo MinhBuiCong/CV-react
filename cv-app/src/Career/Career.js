@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../Style/Career.css";
-import "../Media-styles/career-tablet.css";
+import "../Media-tablet-styles/career-tablet.css";
 import Data from "../Data/Career-data";
 import CardComponent from "./Career-card-component";
 
